@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>组1</key>
+	<array>
+		<string>组1成员1</string>
+		<string>组1成员2</string>
+		<string>组1成员3</string>
+		<string>组1成员4</string>
+	</array>
+	<key>组2</key>
+	<array>
+		<string>组2成员1</string>
+		<string>组2成员2</string>
+		<string>组2成员3</string>
+		<string>组2成员4</string>
+		<string>组2成员5</string>
+	</array>
+	<key>组3</key>
+	<array>
+		<string>组3成员1</string>
+		<string>组3成员2</string>
+		<string>组3成员3</string>
+	</array>
+	<key>组4</key>
+	<array>
+		<string>组4成员1</string>
+		<string>组4成员2</string>
+		<string>组4成员3</string>
+	</array>
+	<key>组5</key>
+	<array>
+		<string>组5成员1</string>
+		<string>组5成员2</string>
+		<string>组5成员3</string>
+		<string>组5成员4</string>
+		<string>组5成员5</string>
+	</array>
+</dict>
+</plist>

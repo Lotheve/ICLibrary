@@ -1,0 +1,15 @@
+//
+//  ICPrefixHeader.pch
+//  ICLibrary
+//
+//  Created by 卢旭峰 on 16/8/11.
+//  Copyright © 2016年 Lotheve. All rights reserved.
+//
+
+#ifndef ICPrefixHeader_pch
+#define ICPrefixHeader_pch
+
+//#import "ICLibrary.h"
+#import "ICMacros.h"
+
+#endif /* ICPrefixHeader_pch */
