@@ -13,6 +13,10 @@
 - **UIButton+Additions**
 
 	用于调整按钮文本与图片对其方式的UIButton扩展类
+	
+- **UIButton+HitRect**
+
+	支持调整点击范围的UIButton扩展类
 
 ###CustomUI（基于系统控件的自定义控件封装）
 

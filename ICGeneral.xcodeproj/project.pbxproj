@@ -97,6 +97,7 @@
 		6E7CB1611D5C995800EE9B05 /* ICWebViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7CB14B1D5C995800EE9B05 /* ICWebViewDemo.m */; };
 		6E7CB1641D5C996300EE9B05 /* main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E7CB1621D5C996300EE9B05 /* main.plist */; };
 		6E7CB1651D5C996300EE9B05 /* pickerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E7CB1631D5C996300EE9B05 /* pickerData.plist */; };
+		6EDDC2E01D740E7C007410B7 /* UIButton+HitRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDDC2DF1D740E7C007410B7 /* UIButton+HitRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,6 +292,8 @@
 		6E7CB1621D5C996300EE9B05 /* main.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = main.plist; sourceTree = "<group>"; };
 		6E7CB1631D5C996300EE9B05 /* pickerData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pickerData.plist; sourceTree = "<group>"; };
 		6E7CB1661D5C997900EE9B05 /* ICPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICPrefixHeader.pch; sourceTree = "<group>"; };
+		6EDDC2DE1D740E7C007410B7 /* UIButton+HitRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HitRect.h"; sourceTree = "<group>"; };
+		6EDDC2DF1D740E7C007410B7 /* UIButton+HitRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HitRect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -455,6 +458,8 @@
 				6E7CB09B1D5C994600EE9B05 /* UIAlertView+Additions.m */,
 				6E7CB09C1D5C994600EE9B05 /* UIButton+Additions.h */,
 				6E7CB09D1D5C994600EE9B05 /* UIButton+Additions.m */,
+				6EDDC2DE1D740E7C007410B7 /* UIButton+HitRect.h */,
+				6EDDC2DF1D740E7C007410B7 /* UIButton+HitRect.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -835,6 +840,7 @@
 				6E7CB1591D5C995800EE9B05 /* ICDatePickerDemo.m in Sources */,
 				6E7CB1581D5C995800EE9B05 /* ICCircleScrollBannerDemo.m in Sources */,
 				6E7CB1521D5C995800EE9B05 /* ICDeviceInfoHelperDemo.m in Sources */,
+				6EDDC2E01D740E7C007410B7 /* UIButton+HitRect.m in Sources */,
 				6E7CB15B1D5C995800EE9B05 /* ICLabelDemo.m in Sources */,
 				6E7CB1031D5C994600EE9B05 /* pinyin.m in Sources */,
 				6E7CB1611D5C995800EE9B05 /* ICWebViewDemo.m in Sources */,
@@ -1118,6 +1124,7 @@
 				6E7CB0591D5C98A100EE9B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E7CB05A1D5C98A100EE9B05 /* Build configuration list for PBXNativeTarget "ICGeneralTests" */ = {
 			isa = XCConfigurationList;
@@ -1126,6 +1133,7 @@
 				6E7CB05C1D5C98A100EE9B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E7CB05D1D5C98A100EE9B05 /* Build configuration list for PBXNativeTarget "ICGeneralUITests" */ = {
 			isa = XCConfigurationList;
@@ -1134,6 +1142,7 @@
 				6E7CB05F1D5C98A100EE9B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
