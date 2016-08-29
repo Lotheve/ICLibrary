@@ -12,6 +12,7 @@
 /*-------------------系统控件自定义类别扩展----------------------*/
 #import "UIAlertView+Additions.h"
 #import "UIButton+Additions.h"
+#import "UIButton+HitRect"
 
 /*---------------------系统控件自定义封装-----------------------*/
 #import "ICButton.h"
