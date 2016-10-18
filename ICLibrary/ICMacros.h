@@ -36,14 +36,13 @@
 #define DebugLog(format,...)
 #endif
 
-//ARC下Log对象引用计数值
+//Log对象引用计数值
 #if __has_feature(objc_arc)
 #define Log_Obj_RetainCount(obj) \
-CFTypeRef obj##_ref = (__bridge CFTypeRef)(obj);\
-NSLog(@"%@ : retainCount = %lu",@#obj,CFGetRetainCount(obj##_ref));
+NSLog(@"%@_ref : retainCount = %lu",@#obj,CFGetRetainCount((__bridge CFTypeRef)(obj)))
 #else
 #define Log_Obj_RetainCount(obj) \
-NSLog(@"%@ : retainCount = %lu",@#obj,[obj retainCount]);
+NSLog(@"%@_ref : retainCount = %lu",@#obj,[obj retainCount]);
 #endif
 
 /** 尺寸 **/
